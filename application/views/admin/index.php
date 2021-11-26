@@ -33,7 +33,7 @@
                             <div class="text-md font-weight-bold text-white text-uppercase mb-1">
                                 Stok Buku Terdaftar</div>
                             <div class="h1 mb-0 font-weight-bold text-white"><?php $where = ["stok != 0"];
-                                                                                $total_stok = $this->ModelBuku->total("stok", $where);
+                                                                                $totalstok = $this->ModelBuku->total("stok", $where);
                                                                                 echo $totalstok; ?></div>
                         </div>
                         <div class="col-auto">

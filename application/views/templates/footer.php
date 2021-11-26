@@ -22,9 +22,9 @@
 
 <!-- Scroll to Top Button-->
 
-<a href="scroll-to-top rounded" href="#page-top">
+<!-- <a href="scroll-to-top rounded" href="#page-top">
     <i class="fas fa-angle-up"></i>
-</a>
+</a> -->
 
 <!-- Logout Modal-->
 <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -37,7 +37,7 @@
                     <span aria-hidden="true">X</span>
                 </button>
             </div>
-            <div class="modal-body">Pilih "Logut" dibawah jika kamu sudah yakin selesai.</div>
+            <div class="modal-body">Pilih "Logout" dibawah jika kamu sudah yakin selesai.</div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
                 <a class="btn btn-primary" href="<?= base_url("autentifikasi/logout") ?>">Logout</a>
